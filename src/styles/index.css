@@ -1,12 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn&family=Lobster&display=swap');
 
-/* 
+#cont1{
+    margin-top: 10em;
+    display: block;
+    width: 900px;
+    height: 500px;
+    border: groove 20px rgb(190, 2, 2);
+    border-radius:25px;
+    border-style: dashed;
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-navideno-diseno-plano_23-2148671468.jpg);
+    background-size: cover;
+}
+h2{
+    color:white;
+    font-family: 'Gwendolyn', cursive;
+    font-size: 4em;
+}
+.cName , .cCard{
+    display: inline-flex;
+    align-items: baseline;
+}
+.name{
+    background-color: transparent;
+    color:white;
+    font-family: 'Gwendolyn', cursive;
+    font-size: 3em;
+    border:none;
+    width: auto;
+    font-style: strong;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.feli{
+    background-color: transparent;
+    color:white;
+    font-family: 'Gwendolyn', cursive;
+    font-size: 3em;
+    border:none;
+    width: 100%;
+    height: 100%;
+}
