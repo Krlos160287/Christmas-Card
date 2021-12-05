@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import React from "react";
+import "animate.css";
 
 export const Card = () => {
 	const [name, setName] = useState(" ");
@@ -9,7 +10,11 @@ export const Card = () => {
 	return (
 		<div className="container" id="cont1">
 			<div className="cCard">
-				<h2>Querido </h2>
+				<h2
+					className="animate__animated animate__fadeInLeft"
+					id="first">
+					Querido{" "}
+				</h2>
 				<input
 					className="name"
 					type="text"
@@ -18,7 +23,11 @@ export const Card = () => {
 				/>
 			</div>
 			<div className="cName">
-				<h2>Mi nombre es: </h2>
+				<h2
+					className="animate__animated animate__fadeInLeft"
+					id="second">
+					Mi nombre es:{" "}
+				</h2>
 				<input
 					className="name"
 					type="text"
@@ -27,7 +36,11 @@ export const Card = () => {
 				/>
 			</div>
 			<div className="cFeli">
-				<h2>Y quiero felicitarte de una manera especial: </h2>
+				<h2
+					className="animate__animated animate__fadeInLeft"
+					id="third">
+					Y quiero felicitarte de una manera especial:{" "}
+				</h2>
 				<input
 					className="feli"
 					type="text"

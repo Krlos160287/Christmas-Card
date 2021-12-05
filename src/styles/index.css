@@ -39,3 +39,12 @@ h2{
     width: 100%;
     height: 100%;
 }
+#first{
+    --animate-duration: 5s;
+}
+#second{
+    --animate-duration: 5s;
+}
+#third{
+    --animate-duration: 5s;
+}
