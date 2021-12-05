@@ -4,7 +4,6 @@ import "animate.css";
 
 export const Card = () => {
 	const [name, setName] = useState(" ");
-	const [name2, setName2] = useState(" ");
 	const [message, setMessage] = useState(" ");
 
 	return (
@@ -15,28 +14,23 @@ export const Card = () => {
 				<h2
 					className="animate__animated animate__fadeInLeft"
 					id="first">
-					Querido/a{" "}
+					Querido/a:
 				</h2>
-				<select>
-					<option> Papá</option>
-					<option> Mamá</option>
-					<option> Marido</option>
-					<option> Esposa</option>
-					<option> Hermano/a</option>
-					<option> Hijo/a</option>
-					<option> Abuelo/a</option>
-					<option> Familia</option>
-				</select>
+				<input
+					className="name"
+					type="text"
+					value={name}
+					onChange={e => setName(e.target.value)}
+				/>
 			</div>
-
-			<div className="cFeli">
+			<div className="cFeli contenteditable">
 				<h2
 					className="animate__animated animate__fadeInLeft"
 					id="third">
-					Y quiero felicitarte de una manera especial:{" "}
+					Mensaje:
 				</h2>
-				<input
-					className="feli"
+				<textarea
+					id="feli"
 					type="text"
 					value={message}
 					onChange={e => setMessage(e.target.value)}
