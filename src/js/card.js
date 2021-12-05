@@ -8,33 +8,27 @@ export const Card = () => {
 	const [message, setMessage] = useState(" ");
 
 	return (
-		<div className="container" id="cont1">
+		<div
+			className="container animate__animated animate__fadeInTopLeft"
+			id="cont1">
 			<div className="cCard">
 				<h2
 					className="animate__animated animate__fadeInLeft"
 					id="first">
-					Querido{" "}
+					Querido/a{" "}
 				</h2>
-				<input
-					className="name"
-					type="text"
-					value={name2}
-					onChange={e => setName2(e.target.value)}
-				/>
+				<select>
+					<option> Papá</option>
+					<option> Mamá</option>
+					<option> Marido</option>
+					<option> Esposa</option>
+					<option> Hermano/a</option>
+					<option> Hijo/a</option>
+					<option> Abuelo/a</option>
+					<option> Familia</option>
+				</select>
 			</div>
-			<div className="cName">
-				<h2
-					className="animate__animated animate__fadeInLeft"
-					id="second">
-					Mi nombre es:{" "}
-				</h2>
-				<input
-					className="name"
-					type="text"
-					value={name}
-					onChange={e => setName(e.target.value)}
-				/>
-			</div>
+
 			<div className="cFeli">
 				<h2
 					className="animate__animated animate__fadeInLeft"

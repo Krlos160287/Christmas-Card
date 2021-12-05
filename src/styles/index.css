@@ -10,6 +10,8 @@
     border-style: dashed;
     background-image: url(https://image.freepik.com/vector-gratis/fondo-navideno-diseno-plano_23-2148671468.jpg);
     background-size: cover;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.16), 10px 10px 5px rgba(0,0,0,0.23);
+    --animate-duration: 5s
 }
 h2{
     color:white;
@@ -19,6 +21,7 @@ h2{
 .cName , .cCard{
     display: inline-flex;
     align-items: baseline;
+    
 }
 .name{
     background-color: transparent;
@@ -41,10 +44,21 @@ h2{
 }
 #first{
     --animate-duration: 5s;
+    margin-right: 10px;
 }
 #second{
     --animate-duration: 5s;
 }
 #third{
     --animate-duration: 5s;
+}
+select{
+    color:white;
+    font-family: 'Gwendolyn', cursive;
+    font-size: 3em;
+    background-color: transparent;
+    border:none;
+}
+option{
+    background-color:crimson;
 }
