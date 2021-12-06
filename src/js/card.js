@@ -24,15 +24,11 @@ export const Card = () => {
 				/>
 			</div>
 			<div className="cFeli contenteditable">
-				<h2
-					className="animate__animated animate__fadeInLeft"
-					id="third">
-					Mensaje:
-				</h2>
 				<textarea
 					id="feli"
 					type="text"
 					value={message}
+					rows="4"
 					onChange={e => setMessage(e.target.value)}
 				/>
 			</div>

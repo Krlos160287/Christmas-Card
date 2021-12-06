@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gwendolyn&family=Lobster&display=swap');
-
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/fir-branches-white-wooden-background-christmas-wallpaper-flat-lay-copy-space-fir-branches-white-background-christmas-155250411.jpg);
+    background-size: cover;
+}
 #cont1{
     margin-top: 10em;
     display: block;
@@ -7,7 +10,7 @@
     height: 500px;
     border: ridge 20px crimson;
     border-radius:25px;
-    background-image: url(https://image.freepik.com/vector-gratis/fondo-navideno-diseno-plano_23-2148671468.jpg);
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-red-christmas-background-display-board-decorationchristmas-background-illustrationchristmas-image_81959.jpg);
     background-size: cover;
     box-shadow: 10px 10px 5px rgba(0,0,0,0.16), 10px 10px 5px rgba(0,0,0,0.23);
     --animate-duration: 5s
@@ -46,10 +49,10 @@ textarea{
     width: 100%;
     resize: none;
     overflow:hidden;
-    height: auto;
+    height: 350px;
     outline: none;
 }
-#textarea:hover{
+textarea:hover{
     border: ridge 2px crimson;
 }
 #first{
