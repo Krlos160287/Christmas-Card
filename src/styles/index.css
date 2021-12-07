@@ -51,6 +51,8 @@ textarea{
     overflow:hidden;
     height: 350px;
     outline: none;
+    text-align: center;
+    
 }
 textarea:hover{
     border: ridge 2px crimson;

@@ -4,7 +4,9 @@ import "animate.css";
 
 export const Card = () => {
 	const [name, setName] = useState(" ");
-	const [message, setMessage] = useState(" ");
+	const [message, setMessage] = useState(
+		"¡Te deseo una Feliz Navidad \ny \nun próspero \nFeliz año nuevo 2022!"
+	);
 
 	return (
 		<div
